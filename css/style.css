@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@media only screen and (max-width: 375px) {
+  h2 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bigcontainer .qrcontainer {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 20px hsla(0, 0%, 73%, 0.488);
+  border-radius: 13px;
+  max-width: 210px;
+  width: 100%;
+  padding: 9px;
+}
+.bigcontainer .qrcontainer .image {
+  display: flex;
+  justify-content: center;
+}
+.bigcontainer .qrcontainer .image img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 5px;
+}
+.bigcontainer .qrcontainer .qrtexts {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 8px;
+  padding: 2px;
+}
+.bigcontainer .qrcontainer .qrtexts h2 {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+}
+.bigcontainer .qrcontainer .qrtexts p {
+  font-size: 11px;
+  color: hsl(220, 15%, 55%);
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
